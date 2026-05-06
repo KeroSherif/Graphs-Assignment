@@ -21,6 +21,22 @@ python -m py_compile graph.py topological_sort.py prim.py
 python main.py
 ```
 
+## Visualization (PNG)
+
+This project exports images (PNG) for the example graphs by default when you run `main.py`.
+
+```bash
+python main.py
+```
+
+This writes `topo.png` and `prim.png`.
+
+To disable image generation:
+
+```bash
+python main.py --viz none
+```
+
 ## Recommended imports
 
 ```python
